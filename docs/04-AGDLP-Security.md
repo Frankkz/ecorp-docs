@@ -22,8 +22,8 @@ We strictly follow the **AGDLP** principle:
 * Screenshot 1 showing the Security Tab of PR-SAL-04 printer with `DL_Printer_Sales_Manage` added and given the Manage Documents permission
 * Screenshot 2 showing `GG_Sales_Leads` as a member of `DL_Printer_Sales_Manage`.
 
-![PR-SAL-04](..\images\Security-PR-SAL-04.png)  
-![Memberof-GG_Sales_Leads](..\images\Memberof-GG_Sales_Leads.png)  
+![PR-SAL-04](../images/Security-PR-SAL-04.png)  
+![Memberof-GG_Sales_Leads](../images/Memberof-GG_Sales_Leads.png)  
 
 **Result:** Killian Kelly, Head of Sales, member of GG_Sales_Leads, can manage printjobs on `PR-SAL-04`.
 
@@ -44,8 +44,8 @@ If a new Sales Manager is hired, we simply add them to `GG_Sales_Leads`. They au
 * Screenshot 1 showing the Security Tab of the shared Sales directory with `DL_Share_Sales_Modify` and `DL_Share_Sales_Read`  added and given the Modify and Read permissions respectively.
 * Screenshot 2 showing `GG_Sales_Team` as a member of `DL_Share_Sales_Modify`.
 
-![Share-Sales-Security](..\images\Share-Sales-Security.png)  
-![Share-Memberof-GG_Sales_Team](..\images\Share-Memberof-GG_Sales_Team.png)  
+![Share-Sales-Security](../images/Share-Sales-Security.png)  
+![Share-Memberof-GG_Sales_Team](../images/Share-Memberof-GG_Sales_Team.png)  
 
 Result: Killian Kelly, Head of Sales, member of GG_Sales_Team, can modify/read the Sales share directory. 
 
