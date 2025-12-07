@@ -10,7 +10,7 @@ The primary purpose of this documentation is to provide a clear handbook and gui
 
 * **Scalability & Isolation:** Identity services (DC01) are separated from File/Print services (FS01) to prevent single points of failure, minimize the Domain Controller attack surface and allow for scaling.
 * **AGDLP Security Model:** The **A**ccount > **G**lobal Group > **D**omain **L**ocal Group > **P**ermission model was used. This ensures permissions are never assigned to individual users, keeping the environment clean and manageable as staff changes.
-* **Automated Management:** Software deployment, drive mapping, and printer installation are fully automated via Group Policy Objects (GPO). Eliminating the need for manual configuration on every single end device.
+* **Automated Management:** Software deployment, drive mapping and printer installation are fully automated via Group Policy Objects (GPO). Eliminating the need for manual configuration on every single end device.
 
 ## Test Credentials
 
